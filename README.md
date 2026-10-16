@@ -9,4 +9,5 @@ Para facilitar la identificación rápida en la operación diaria, el sistema as
 
   <img width="740" height="605" alt="image" src="https://github.com/user-attachments/assets/eca749cf-01c0-4578-994f-3190e66a6eb8" />
 
-<img width="712" height="612" alt="image" src="https://github.com/user-attachments/assets/ba2a9953-25d6-4dfe-8bdf-3209e9843dd8" />
+<img width="881" height="710" alt="image" src="https://github.com/user-attachments/assets/e8bef344-57b4-497f-9e60-ad582a58de6c" />
+
