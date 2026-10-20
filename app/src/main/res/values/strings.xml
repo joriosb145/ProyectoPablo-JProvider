@@ -1,3 +1,49 @@
 <resources>
     <string name="app_name">JProvider</string>
+
+    <!-- Pantalla de login -->
+    <string name="login_header">Home > Sign In</string>
+    <string name="login_title">Sign In</string>
+    <string name="login_subtitle">Access your account and manage your providers from a single place.</string>
+    <string name="login_access">Access Data</string>
+    <string name="login_mandatory">Fields with * are mandatory.</string>
+    <string name="login_label_username">Username *</string>
+    <string name="login_message_username">Type your username</string>
+    <string name="login_label_password">Password *</string>
+    <string name="login_message_password">Type your password</string>
+    <string name="login_btn_signIn">Sign In</string>
+    <string name="login_security_notice">Your data, always protected.</string>
+
+    <!-- Pantalla de lista de proveedores -->
+    <string name="providers_title">Providers</string>
+    <string name="providers_search">Search provider</string>
+    <string name="providers_btn_add">Add provider</string>
+
+    <!-- Pantalla de enviar solicitud -->
+    <string name="request_title">Send Request</string>
+    <string name="request_label_subject">Subject *</string>
+    <string name="request_label_dueDate">Desired Delivery Date *</string>
+    <string name="request_label_message">Message to Provider</string>
+    <string name="request_label_attachment">Attached Order *</string>
+    <string name="request_btn_upload">Upload Order</string>
+    <string name="request_btn_send">Send Request</string>
+
+
+    <!-- Pantalla de agregar proveedor -->
+    <string name="add_provider_title">Add Provider</string>
+    <string name="add_provider_name">Provider Name *</string>
+    <string name="add_provider_contact">Contact Person *</string>
+    <string name="add_provider_email">Email *</string>
+    <string name="add_provider_phone">Phone Number *</string>
+    <string name="add_provider_address">Address</string>
+    <string name="add_provider_btn_save">Save Provider</string>
+    <string name="add_provider_section_title">Provider Information</string>
+    <string name="add_provider_info_notice">The provider will be available in your directory. Saving it will not send any request.</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_clear">Clear</string>
+    <string name="providers_btn_edit">Edit</string>
+    <string name="providers_btn_location">View location</string>
+    <string name="providers_btn_delete">Delete</string>
+
+
 </resources>

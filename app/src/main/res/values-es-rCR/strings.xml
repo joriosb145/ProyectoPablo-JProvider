@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JProvider</string>
+    <string name="login_header">Iniciar sesión</string>
+    <string name="login_title">Iniciar sesión</string>
+    <string name="login_subtitle">Accede a tu cuenta y gestiona tus proveedores desde un solo lugar.</string>
+    <string name="login_access">Datos de acceso</string>
+    <string name="login_mandatory">Los campos con * son obligatorios.</string>
+    <string name="login_label_username">Usuario *</string>
+    <string name="login_message_username">Escribe tu usuario</string>
+    <string name="login_label_password">Contraseña *</string>
+    <string name="login_message_password">Escribe tu contraseña</string>
+
+
+    <string name="login_btn_signIn">Iniciar sesión</string>
+    <string name="login_security_notice">Tus datos, siempre protegidos.</string>
+    <string name="providers_title">Proveedores</string>
+    <string name="providers_search">Buscar proveedor</string>
+    <string name="providers_btn_add">Agregar proveedor</string>
+    <string name="request_title">Enviar solicitud</string>
+    <string name="request_label_subject">Asunto *</string>
+    <string name="request_label_dueDate">Fecha de entrega deseada *</string>
+    <string name="request_label_message">Mensaje al proveedor</string>
+    <string name="request_label_attachment">Pedido adjunto *</string>
+    <string name="request_btn_upload">Cargar pedido</string>
+    <string name="request_btn_send">Enviar solicitud</string>
+    <string name="add_provider_title">Agregar proveedor</string>
+    <string name="add_provider_name">Nombre del proveedor *</string>
+    <string name="add_provider_contact">"Persona de contacto "</string>
+    <string name="add_provider_email">Correo electrónico *</string>
+    <string name="add_provider_phone">Teléfono *</string>
+    <string name="add_provider_address">Dirección</string>
+    <string name="add_provider_btn_save">Guardar proveedor</string>
+    <string name="add_provider_section_title">Información del proveedor</string>
+    <string name="add_provider_info_notice">El proveedor quedará disponible en tu directorio. Guardarlo no enviará ninguna solicitud.</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_clear">Limpiar</string>
+    <string name="providers_btn_edit">Editar</string>
+    <string name="providers_btn_location">Ver ubicación</string>
+    <string name="providers_btn_delete">Eliminar</string>
+</resources>
