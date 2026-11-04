@@ -13,6 +13,10 @@
     <string name="login_message_password">Type your password</string>
     <string name="login_btn_signIn">Sign In</string>
     <string name="login_security_notice">Your data, always protected.</string>
+    <string name="login_forgot_password">Forgot your password?</string>
+    <string name="login_no_account">Don\'t have an account yet?</string>
+    <string name="login_btn_create_account">Create an account</string>
+    <string name="header_home">Home</string>
 
     <!-- Pantalla de lista de proveedores -->
     <string name="providers_title">Providers</string>
@@ -27,6 +31,8 @@
     <string name="request_label_attachment">Attached Order *</string>
     <string name="request_btn_upload">Upload Order</string>
     <string name="request_btn_send">Send Request</string>
+    <string name="request_label_provider">Provider *</string>
+    <string name="request_section_details">Order Details</string>
 
 
     <!-- Pantalla de agregar proveedor -->
@@ -45,5 +51,12 @@
     <string name="providers_btn_location">View location</string>
     <string name="providers_btn_delete">Delete</string>
 
-
+    <!-- Pantallas de toast message -->
+    <string name="msg_required_fields">Please fill in all required fields.</string>
+    <string name="msg_invalid_login">Invalid username or password.</string>
+    <string name="msg_welcome">Welcome to JProvider!</string>
+    <string name="msg_provider_saved">Provider saved successfully.</string>
+    <string name="msg_provider_deleted">Provider deleted.</string>
+    <string name="msg_request_sent">Request sent to the provider.</string>
+    <string name="msg_attachment_required">Please attach the order file.</string>
 </resources>
