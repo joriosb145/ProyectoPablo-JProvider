@@ -1,34 +1,45 @@
 package cr.ac.utn.jprovider.viewmodel
 
 import androidx.lifecycle.ViewModel
+import cr.ac.utn.jprovider.data.memory.MemoryProviderRepository
 import cr.ac.utn.jprovider.domain.model.OrderRequest
 import cr.ac.utn.jprovider.domain.model.Provider
 import cr.ac.utn.jprovider.domain.repository.IProviderRepository
 
-class ProviderViewModel(
+class ProviderViewModel : ViewModel() {
+    companion object {
+        private var repository: IProviderRepository
 
-    private val repository: IProviderRepository): ViewModel() {
+        init {
+            repository = MemoryProviderRepository()
+        }
 
-    // Operaciones proveedores
+        fun getProviders(): List<Provider> {
+            return repository.getProviders()
+        }
 
-    fun getProviders(): List<Provider> {
-        return repository.getProviders()
-    }
+        fun getProviderById(id: String): Provider? {
+            return repository.getProviderById(id)
+        }
 
-    fun saveProvider(provider: Provider) {
-        repository.insertProvider(provider)
-    }
+        fun saveProvider(provider: Provider) {
+            repository.insertProvider(provider)
+        }
 
-    fun removeProvider(id: String) {
-        repository.deleteProvider(id)
-    }
+        fun updateProvider(provider: Provider) {
+            repository.updateProvider(provider)
+        }
 
-    // Operaciones de solicitud de pedidos
-    fun getOrderRequests(): List<OrderRequest> {
-        return repository.getOrderRequests()
-    }
+        fun removeProvider(id: String) {
+            repository.deleteProvider(id)
+        }
 
-    fun saveOrderRequest(request: OrderRequest) {
-        repository.insertOrderRequest(request)
+        fun getOrderRequests(): List<OrderRequest> {
+            return repository.getOrderRequests()
+        }
+
+        fun saveOrderRequest(request: OrderRequest) {
+            repository.insertOrderRequest(request)
+        }
     }
 }

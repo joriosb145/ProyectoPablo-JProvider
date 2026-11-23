@@ -33,7 +33,7 @@
 
     <string name="add_provider_title">Agregar proveedor</string>
     <string name="add_provider_name">Nombre del proveedor *</string>
-    <string name="add_provider_contact">Persona de contacto</string>
+    <string name="add_provider_contact">Persona de contacto *</string>
     <string name="add_provider_email">Correo electrónico *</string>
     <string name="add_provider_phone">Teléfono *</string>
     <string name="add_provider_address">Dirección</string>
@@ -54,5 +54,16 @@
     <string name="msg_provider_deleted">Proveedor eliminado.</string>
     <string name="msg_request_sent">Solicitud enviada al proveedor.</string>
     <string name="msg_attachment_required">Por favor adjunta el archivo del pedido.</string>
+
+    <string name="add_provider_id">ID del proveedor *</string>
+    <string name="msg_provider_updated">Proveedor actualizado correctamente.</string>
+    <string name="msg_provider_not_found">No se encontró el proveedor.</string>
+    <string name="msg_provider_duplicate">Ya existe un proveedor con ese ID.</string>
+
+    <string name="dialog_title">Confirmación</string>
+    <string name="dialog_update_question">¿Deseas actualizar el proveedor?</string>
+    <string name="dialog_delete_question">¿Deseas eliminar el proveedor?</string>
+    <string name="dialog_yes">Sí</string>
+    <string name="dialog_no">No</string>
 
 </resources>
